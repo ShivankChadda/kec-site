@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kailash Engineering Company</title>
+<meta name="description" content="Kailash Engineering Company (KEC) is a construction company based in Port Blair, Andaman and Nicobar Islands.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2318242f'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-family='Arial' font-weight='700' font-size='16' fill='%23ffffff'%3EK%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,600..800&family=Source+Sans+3:wght@400;600&display=swap">
+<style>
+:root {
+  --bg: #eef1ee; --surface: #ffffff; --ink: #1b2631; --muted: #5b6874; --rule: #d6dcd8;
+  --band: #18242f; --band-ink: #eef2f5; --band-muted: #a9b6c1; --accent: #2547a8;
+  --display: "Archivo", "Arial Narrow", system-ui, sans-serif;
+  --body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #11171c; --surface: #1a2229; --ink: #e5ebef; --muted: #96a4ae; --rule: #2c3741;
+    --band: #0b1015; --band-ink: #e9eef2; --band-muted: #8e9ba6; --accent: #8aa6ff; color-scheme: dark; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.55 var(--body); }
+.wrap { max-width: 880px; margin: 0 auto; padding-left: max(18px, env(safe-area-inset-left, 0px)); padding-right: max(18px, env(safe-area-inset-right, 0px)); }
+header { background: var(--band); color: var(--band-ink); }
+header .wrap { padding-block: 48px 40px; }
+.eyebrow { font-size: 12.5px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--band-muted); }
+h1, h2 { font-family: var(--display); font-stretch: 82%; margin: 0; text-wrap: balance; }
+h1 { font-size: clamp(34px, 6vw, 52px); font-weight: 800; line-height: 1.02; margin-top: 8px; }
+header p { margin: 14px 0 0; max-width: 60ch; color: var(--band-muted); font-size: 17px; }
+main .wrap { padding-block: 34px 20px; display: grid; gap: 30px; }
+section { display: grid; gap: 8px; }
+h2 { font-size: 22px; font-weight: 700; }
+p { margin: 0; max-width: 66ch; }
+.card { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 18px 20px; display: grid; gap: 12px; }
+dl { margin: 0; display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 8px 18px; }
+dt { color: var(--muted); font-size: 14px; padding-top: 1px; }
+dd { margin: 0; overflow-wrap: anywhere; }
+a { color: var(--accent); }
+footer .wrap { padding-block: 22px 34px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 14px; display: flex; flex-wrap: wrap; gap: 6px 18px; justify-content: space-between; }
+@media (max-width: 520px) { dl { grid-template-columns: minmax(0, 1fr); gap: 2px; } dd { margin-bottom: 10px; } }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="eyebrow">Construction · Port Blair, Andaman and Nicobar Islands</div>
+    <h1>Kailash Engineering Company</h1>
+    <p>Kailash Engineering Company (KEC) is a construction company based in Port Blair. We carry out construction work at sites across the Andaman and Nicobar Islands, with materials sourced in Port Blair and shipped to each site.</p>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <section aria-labelledby="desk">
+      <h2 id="desk">Purchase Desk</h2>
+      <p>The Purchase Desk is KEC's internal WhatsApp number. Our site engineers, logistics team and management use it to record material requirements, purchase approvals, dispatches and deliveries for our sites. It is used only by KEC staff and does not send promotional messages.</p>
+    </section>
+
+    <section aria-labelledby="contact">
+      <h2 id="contact">Contact</h2>
+      <div class="card">
+        <dl>
+          <dt>Company</dt><dd>Kailash Engineering Company</dd>
+          <dt>Address</dt><dd>22, Deshmesh Market, Port Blair,<br>Andaman and Nicobar Islands, India</dd>
+          <dt>Email</dt><dd><a href="mailto:chadhakailash25@gmail.com">chadhakailash25@gmail.com</a></dd>
+        </dl>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Kailash Engineering Company</span>
+    <a href="privacy.html">Privacy policy</a>
+  </div>
+</footer>
+</body>
+</html>
